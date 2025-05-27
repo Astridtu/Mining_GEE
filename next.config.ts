@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
     return config;
   },
   images: {
-    domains: ['example.com', 'anotherdomain.com'],
+    domains: ['your-image-domain.com', 'another-image-domain.com'], // Replace with actual image domains
   },
   env: {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
